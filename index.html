@@ -1,0 +1,2897 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>?ㅻ뒛???섏궗?붿쨷</title>
+<style>
+#ohjalsa-event-wrap {
+  width: 100%; max-width: 768px; margin: 0 auto;
+  position: relative; background-color: #fff;
+  font-family: 'Pretendard', sans-serif; overflow-x: hidden;
+}
+#ohjalsa-event-wrap * { box-sizing: border-box; margin: 0; padding: 0; }
+#ohjalsa-event-wrap img { border: 0; vertical-align: middle; }
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Pretendard-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": true}] */
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5f06a5517739f30d3a8fc967/fonts/pretendard-bold.otf")
+    format("opentype");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Pretendard-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": true}] */
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/681c02510381d3a49b99eb95/fonts/pretendard-regular.otf")
+    format("opentype");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Pretendard", "weight": "var(--font-1-paragraph-paragraph-1-bold-font-weight)", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Pretendard";
+  src: local("Pretendard");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "SF Pro-Semibold", "weight": "400", "style": "normal", "allowsCrossOrigin": true}] */
+
+@font-face {
+  font-family: "SF Pro-Semibold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64f035e70ffb37c7c0f32912/fonts/sf-pro.ttf")
+    format("truetype");
+}
+
+:root {
+  --fontlightneutral-6: rgba(98, 106, 122, 1);
+  --fontlightneutral-3: rgba(34, 37, 42, 1);
+  --basicsubindigo-400: rgba(93, 103, 207, 1);
+  --sementicbackground-color1-light: rgba(255, 255, 255, 1);
+  --font-1-paragraph-paragraph-1-bold-font-family: "Pretendard", Helvetica;
+  --font-1-paragraph-paragraph-1-bold-font-weight: 700;
+  --font-1-paragraph-paragraph-1-bold-font-size: 19px;
+  --font-1-paragraph-paragraph-1-bold-letter-spacing: 0px;
+  --font-1-paragraph-paragraph-1-bold-line-height: 28px;
+  --font-1-paragraph-paragraph-1-bold-font-style: normal;
+  --font-1-paragraph-paragraph-5-regular-font-family: "Pretendard", Helvetica;
+  --font-1-paragraph-paragraph-5-regular-font-weight: 400;
+  --font-1-paragraph-paragraph-5-regular-font-size: 15px;
+  --font-1-paragraph-paragraph-5-regular-letter-spacing: 0px;
+  --font-1-paragraph-paragraph-5-regular-line-height: 22px;
+  --font-1-paragraph-paragraph-5-regular-font-style: normal;
+  --font-1-paragraph-paragraph-6-regular-font-family: "Pretendard", Helvetica;
+  --font-1-paragraph-paragraph-6-regular-font-weight: 400;
+  --font-1-paragraph-paragraph-6-regular-font-size: 14px;
+  --font-1-paragraph-paragraph-6-regular-letter-spacing: 0px;
+  --font-1-paragraph-paragraph-6-regular-line-height: 20px;
+  --font-1-paragraph-paragraph-6-regular-font-style: normal;
+  --font-1-paragraph-paragraph-4-regular-font-family: "Pretendard", Helvetica;
+  --font-1-paragraph-paragraph-4-regular-font-weight: 400;
+  --font-1-paragraph-paragraph-4-regular-font-size: 16px;
+  --font-1-paragraph-paragraph-4-regular-letter-spacing: 0px;
+  --font-1-paragraph-paragraph-4-regular-line-height: 24px;
+  --font-1-paragraph-paragraph-4-regular-font-style: normal;
+  --font-1-subheading-subheading-2-bold-font-family: "Pretendard", Helvetica;
+  --font-1-subheading-subheading-2-bold-font-weight: 700;
+  --font-1-subheading-subheading-2-bold-font-size: 22px;
+  --font-1-subheading-subheading-2-bold-letter-spacing: 0px;
+  --font-1-subheading-subheading-2-bold-line-height: 30px;
+  --font-1-subheading-subheading-2-bold-font-style: normal;
+  --pretendard-subheading-subh-1-bold-font-family: "Pretendard", Helvetica;
+  --pretendard-subheading-subh-1-bold-font-weight: 700;
+  --pretendard-subheading-subh-1-bold-font-size: 24px;
+  --pretendard-subheading-subh-1-bold-letter-spacing: 0px;
+  --pretendard-subheading-subh-1-bold-line-height: 32px;
+  --pretendard-subheading-subh-1-bold-font-style: normal;
+  --pretendard-paragraph-paragraph-4-regular-font-family: "Pretendard",
+    Helvetica;
+  --pretendard-paragraph-paragraph-4-regular-font-weight: 400;
+  --pretendard-paragraph-paragraph-4-regular-font-size: 16px;
+  --pretendard-paragraph-paragraph-4-regular-letter-spacing: 0px;
+  --pretendard-paragraph-paragraph-4-regular-line-height: 24px;
+  --pretendard-paragraph-paragraph-4-regular-font-style: normal;
+  --pretendard-paragraph-paragraph-4-bold-font-family: "Pretendard", Helvetica;
+  --pretendard-paragraph-paragraph-4-bold-font-weight: 700;
+  --pretendard-paragraph-paragraph-4-bold-font-size: 16px;
+  --pretendard-paragraph-paragraph-4-bold-letter-spacing: 0px;
+  --pretendard-paragraph-paragraph-4-bold-line-height: 24px;
+  --pretendard-paragraph-paragraph-4-bold-font-style: normal;
+  --font-1-paragraph-paragraph-3-bold-font-family: "Pretendard", Helvetica;
+  --font-1-paragraph-paragraph-3-bold-font-weight: 700;
+  --font-1-paragraph-paragraph-3-bold-font-size: 17px;
+  --font-1-paragraph-paragraph-3-bold-letter-spacing: 0px;
+  --font-1-paragraph-paragraph-3-bold-line-height: 26px;
+  --font-1-paragraph-paragraph-3-bold-font-style: normal;
+  --font-1-paragraph-paragraph-4-bold-font-family: "Pretendard", Helvetica;
+  --font-1-paragraph-paragraph-4-bold-font-weight: 700;
+  --font-1-paragraph-paragraph-4-bold-font-size: 16px;
+  --font-1-paragraph-paragraph-4-bold-letter-spacing: 0px;
+  --font-1-paragraph-paragraph-4-bold-line-height: 24px;
+  --font-1-paragraph-paragraph-4-bold-font-style: normal;
+  --semantic-color-font-neutral-2: var(--primitives-color-gray-900);
+  --semantic-color-font-neutral-7: var(--primitives-color-gray-300);
+  --semantic-color-font-neutral-4: var(--primitives-color-gray-700);
+  --semantic-color-font-neutral-6: var(--primitives-color-gray-500);
+  --semantic-color-font-neutral-3: var(--primitives-color-gray-800);
+  --semantic-color-font-neutral-8: var(--primitives-color-gray-200);
+  --semantic-color-font-neutral-white: var(--primitives-color-gray-white);
+  --semantic-color-background-1: var(--primitives-color-gray-white);
+  --semantic-color-background-2: var(--primitives-color-gray-40);
+  --semantic-radius-8: 8px;
+  --semantic-spacing-6: 6px;
+  --semantic-color-banner-3-20: var(--primitives-color-alpha-blue-20);
+  --semantic-color-surface-2: var(--primitives-color-gray-20);
+  --semantic-spacing-20: 20px;
+  --semantic-spacing-8: 8px;
+  --components-button-arrow-darkgray: var(--primitives-color-gray-600);
+  --components-tab-1depth-selected: var(--semantic-color-font-neutral-2);
+  --components-tab-1depth-normal: var(--semantic-color-font-neutral-7);
+  --primitives-color-gray-900: rgba(25, 27, 30, 1);
+  --primitives-color-gray-300: rgba(150, 157, 171, 1);
+  --primitives-color-gray-700: rgba(52, 56, 65, 1);
+  --primitives-color-gray-500: rgba(98, 106, 122, 1);
+  --primitives-color-gray-800: rgba(34, 37, 42, 1);
+  --primitives-color-gray-600: rgba(75, 81, 93, 1);
+  --primitives-color-gray-200: rgba(178, 183, 194, 1);
+  --primitives-color-gray-white: rgba(255, 255, 255, 1);
+  --primitives-color-gray-40: rgba(243, 245, 248, 1);
+  --primitives-color-gray-100: rgba(205, 209, 218, 1);
+  --primitives-color-gray-400: rgba(122, 131, 148, 1);
+  --primitives-color-gray-60: rgba(231, 233, 239, 1);
+  --primitives-color-gray-950: rgba(14, 16, 19, 1);
+  --primitives-color-alpha-blue-20: rgba(39, 108, 244, 0.2);
+  --primitives-color-gray-20: rgba(248, 249, 252, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-semantic-mode="light-mode">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-semantic-mode="light-mode"] {
+  --semantic-color-font-neutral-2: var(--primitives-color-gray-900);
+  --semantic-color-font-neutral-7: var(--primitives-color-gray-300);
+  --semantic-color-font-neutral-4: var(--primitives-color-gray-700);
+  --semantic-color-font-neutral-6: var(--primitives-color-gray-500);
+  --semantic-color-font-neutral-3: var(--primitives-color-gray-800);
+  --semantic-color-font-neutral-8: var(--primitives-color-gray-200);
+  --semantic-color-background-1: var(--primitives-color-gray-white);
+  --semantic-color-background-2: var(--primitives-color-gray-40);
+  --semantic-color-surface-2: var(--primitives-color-gray-20);
+}
+
+[data-semantic-mode="dark-mode"] {
+  --semantic-color-font-neutral-2: var(--primitives-color-gray-40);
+  --semantic-color-font-neutral-7: var(--primitives-color-gray-500);
+  --semantic-color-font-neutral-4: var(--primitives-color-gray-100);
+  --semantic-color-font-neutral-6: var(--primitives-color-gray-400);
+  --semantic-color-font-neutral-3: var(--primitives-color-gray-60);
+  --semantic-color-font-neutral-8: var(--primitives-color-gray-600);
+  --semantic-color-background-1: var(--primitives-color-gray-900);
+  --semantic-color-background-2: var(--primitives-color-gray-950);
+  --semantic-color-surface-2: var(--primitives-color-gray-950);
+}
+
+[data-components-mode="light-mode"] {
+  --components-button-arrow-darkgray: var(--primitives-color-gray-600);
+}
+
+[data-components-mode="dark-mode"] {
+  --components-button-arrow-darkgray: var(--primitives-color-gray-200);
+}
+
+.iphone {
+  position: relative;
+  width: 390px;
+  height: 5810px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.iphone .rectangle {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  width: 390px;
+  height: 857px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 138, 171, 1) 0%,
+    rgba(255, 207, 220, 1) 100%
+  );
+}
+
+.iphone .group {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  width: 390px;
+  height: 820px;
+}
+
+.iphone .LIST-ALL {
+  flex-direction: column;
+  width: 420px;
+  position: absolute;
+  top: 1020px;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.iphone .sub {
+  gap: 44px;
+  padding: 80px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .title {
+  width: 390px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 20px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.iphone .view {
+  position: relative;
+  width: 60px;
+  height: 48px;
+  aspect-ratio: 1.25;
+}
+
+.iphone .vector {
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  width: 59px;
+  height: 46px;
+}
+
+.iphone .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 30px;
+}
+
+.iphone .div {
+  gap: 8px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .tab {
+  display: flex;
+  width: 390px;
+  align-items: center;
+  gap: 4px;
+  padding: 0px 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .capsule {
+  display: flex;
+  flex-direction: column;
+  width: 78px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: var(--semantic-radius-8);
+  border-color: var(--semantic-color-banner-3-20);
+}
+
+.iphone .logo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  aspect-ratio: 1;
+}
+
+.iphone .text-wrapper-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--semantic-color-font-neutral-2);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.iphone .text-wrapper-3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--semantic-color-font-neutral-7);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.iphone .capsule-2 {
+  display: flex;
+  width: 78px;
+  margin-right: -44.00px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: var(--semantic-radius-8);
+  border-color: var(--semantic-color-banner-3-20);
+}
+
+.iphone .img {
+  width: 39px;
+  position: relative;
+  height: 60px;
+  aspect-ratio: 1;
+}
+
+.iphone .contents {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .pointer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 0px 0px 38px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .vector-2 {
+  position: relative;
+  width: 26px;
+  height: 15.17px;
+  aspect-ratio: 1.44;
+}
+
+.iphone .element {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px 14px 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #fad7ef;
+}
+
+.iphone .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 0px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-1-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-1-bold-font-weight);
+  color: var(--semantic-color-font-neutral-4);
+  font-size: var(--font-1-paragraph-paragraph-1-bold-font-size);
+  text-align: center;
+  letter-spacing: var(--font-1-paragraph-paragraph-1-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-1-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-1-bold-font-style);
+}
+
+.iphone .ticket-list {
+  display: inline-flex;
+  gap: 8px;
+  flex: 0 0 auto;
+  margin-right: -246.00px;
+  align-items: center;
+  position: relative;
+}
+
+.iphone .ticket {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  position: relative;
+}
+
+.iphone .ticket-2 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  align-items: center;
+  position: relative;
+}
+
+.iphone .subtract {
+  position: relative;
+  width: 10px;
+  height: 118px;
+}
+
+.iphone .box {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--semantic-color-background-1);
+}
+
+.iphone .text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .title-2 {
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.iphone .text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .text-wrapper-5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  height: 24px;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-5-regular-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-5-regular-font-weight);
+  color: var(--fontlightneutral-6);
+  font-size: var(--font-1-paragraph-paragraph-5-regular-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-5-regular-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-5-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-5-regular-font-style);
+}
+
+.iphone .text-wrapper-6 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  height: 24px;
+  margin-top: -2px;
+  font-family: var(--font-1-paragraph-paragraph-1-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-1-bold-font-weight);
+  color: var(--fontlightneutral-3);
+  font-size: var(--font-1-paragraph-paragraph-1-bold-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-1-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-1-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-1-bold-font-style);
+}
+
+.iphone .view-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .homecard-badge-price {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 3px 5px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #5d67cf1a;
+  border-radius: 4px;
+}
+
+.iphone .txt {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--basicsubindigo-400);
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.iphone .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-6-regular-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-6-regular-font-weight);
+  color: var(--semantic-color-font-neutral-7);
+  font-size: var(--font-1-paragraph-paragraph-6-regular-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-6-regular-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-6-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-6-regular-font-style);
+}
+
+.iphone .div-2 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.iphone .ticket-line {
+  display: inline-flex;
+  gap: 10px;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.iphone .vector-3 {
+  position: relative;
+  width: 2px;
+  height: 110px;
+  margin-left: -1.00px;
+}
+
+.iphone .frame {
+  display: inline-flex;
+  height: 102px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .arrow-ico-wrapper {
+  display: inline-flex;
+  height: 118px;
+  padding: 16px 20px 16px 16px;
+  flex: 0 0 auto;
+  margin-top: -8.00px;
+  margin-bottom: -8.00px;
+  border-radius: 0px 8px 8px 0px;
+  align-items: center;
+  position: relative;
+  background-color: var(--semantic-color-background-1);
+}
+
+.iphone .arrow-ico {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.iphone .vector-4 {
+  margin-top: -36851.00px;
+  position: relative;
+  width: 1px;
+  height: 110px;
+  margin-left: -2471.00px;
+}
+
+.iphone .arrow-gray-ico {
+  margin-top: -36812.00px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-left: -2471.00px;
+}
+
+.iphone .sub-2 {
+  gap: 44px;
+  padding: 100px 0px 0px;
+  background-color: var(--semantic-color-background-1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .title-3 {
+  width: 390px;
+  align-items: center;
+  gap: 16px;
+  padding: 0px 20px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.iphone .vector-5 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 58px;
+  height: 47px;
+}
+
+.iphone .FASHION {
+  position: absolute;
+  top: 31px;
+  left: calc(50.00% - 16px);
+  width: 32px;
+  height: 5px;
+}
+
+.iphone .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: 28px;
+}
+
+.iphone .select {
+  width: 390px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .tab-2 {
+  display: flex;
+  width: 390px;
+  gap: 4px;
+  padding: 0px 14px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.iphone .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--semantic-color-font-neutral-7);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.iphone .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--semantic-color-font-neutral-7);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.iphone .element-st {
+  background-color: #d7edf9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px 14px 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .vector-6 {
+  margin-top: -37501.00px;
+  position: relative;
+  width: 1px;
+  height: 110px;
+  margin-left: -2471.00px;
+}
+
+.iphone .arrow-ico-2 {
+  margin-top: -37462.00px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-left: -2471.00px;
+}
+
+.iphone .sub-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 100px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--semantic-color-background-1);
+}
+
+.iphone .title-4 {
+  width: 390px;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 20px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.iphone .subtract-2 {
+  top: -37775px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -2066px;
+}
+
+.iphone .vector-7 {
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  width: 58px;
+  height: 44px;
+}
+
+.iphone .FOOD {
+  position: absolute;
+  top: 27px;
+  left: calc(50.00% - 10px);
+  width: 21px;
+  height: 5px;
+}
+
+.iphone .select-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .tab-3 {
+  display: flex;
+  width: 390px;
+  gap: 20px;
+  padding: 0px 20px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.iphone .capsule-3 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: var(--semantic-radius-8);
+  border-color: var(--semantic-color-banner-3-20);
+}
+
+.iphone .gs-logo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px;
+  position: relative;
+  background-color: #f8b62d;
+  border-radius: 30px;
+  aspect-ratio: 1;
+}
+
+.iphone .group-2 {
+  position: relative;
+  width: 48.72px;
+  height: 14px;
+  aspect-ratio: 3.48;
+}
+
+.iphone .vector-8 {
+  position: absolute;
+  width: 75.03%;
+  height: 98.63%;
+  top: 0;
+  left: 24.97%;
+}
+
+.iphone .vector-9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.iphone .capsule-4 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: -40.00px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: var(--semantic-radius-8);
+  border-color: var(--semantic-color-banner-3-20);
+}
+
+.iphone .logo-2 {
+  width: 40px;
+  position: relative;
+  height: 60px;
+  aspect-ratio: 1;
+}
+
+.iphone .text-wrapper-11 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--semantic-color-font-neutral-7);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.iphone .capsule-5 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: -120.00px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: var(--semantic-radius-8);
+  border-color: var(--semantic-color-banner-3-20);
+}
+
+.iphone .logo-3 {
+  width: 60px;
+  margin-top: -37923.00px;
+  margin-left: -2331.00px;
+  position: relative;
+  height: 60px;
+  aspect-ratio: 1;
+}
+
+.iphone .capsule-6 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: -200.00px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: var(--semantic-radius-8);
+  border-color: var(--semantic-color-banner-3-20);
+}
+
+.iphone .logo-4 {
+  width: 60px;
+  margin-top: -37923.00px;
+  margin-left: -2411.00px;
+  position: relative;
+  height: 60px;
+  aspect-ratio: 1;
+}
+
+.iphone .element-2 {
+  background-color: #e4eaff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px 14px 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .vector-10 {
+  margin-top: -38131.00px;
+  position: relative;
+  width: 1px;
+  height: 110px;
+  margin-left: -2471.00px;
+}
+
+.iphone .arrow-ico-3 {
+  margin-top: -38092.00px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-left: -2471.00px;
+}
+
+.iphone .sub-4 {
+  gap: 32px;
+  padding: 100px 0px 0px;
+  background-color: var(--semantic-color-background-1);
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .element-3 {
+  background-color: #d3eeed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px 14px 60px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .vector-11 {
+  margin-top: -38747.00px;
+  position: relative;
+  width: 1px;
+  height: 110px;
+  margin-left: -2471.00px;
+}
+
+.iphone .arrow-ico-4 {
+  margin-top: -38708.00px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-left: -2471.00px;
+}
+
+.iphone .sub-5 {
+  gap: 32px;
+  padding: 100px 0px;
+  background-color: var(--semantic-color-background-1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .subtract-3 {
+  top: -39021px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -2066px;
+}
+
+.iphone .vector-12 {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 57px;
+  height: 43px;
+}
+
+.iphone .BILLS {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 10px);
+  width: 21px;
+  height: 5px;
+}
+
+.iphone .list-all-wrapper {
+  width: 390px;
+  gap: 10px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 20px 24px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--semantic-color-background-2);
+  border-radius: 20px;
+}
+
+.iphone .img-2 {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  aspect-ratio: 1;
+}
+
+.iphone .text-3 {
+  display: flex;
+  align-items: center;
+  gap: 53px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .text-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .text-wrapper-12 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-4-regular-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-4-regular-font-weight);
+  color: var(--semantic-color-font-neutral-6);
+  font-size: var(--font-1-paragraph-paragraph-4-regular-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-4-regular-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-4-regular-line-height);
+  font-style: var(--font-1-paragraph-paragraph-4-regular-font-style);
+}
+
+.iphone .text-wrapper-13 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--font-1-paragraph-paragraph-1-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-1-bold-font-weight);
+  color: var(--semantic-color-font-neutral-3);
+  font-size: var(--font-1-paragraph-paragraph-1-bold-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-1-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-1-bold-line-height);
+  font-style: var(--font-1-paragraph-paragraph-1-bold-font-style);
+}
+
+.iphone .text-5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .sub-6 {
+  gap: 32px;
+  padding: 100px 0px;
+  background-color: #e9f4d8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .subtract-4 {
+  top: -39721px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: -2066px;
+}
+
+.iphone .vector-13 {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 56px;
+  height: 46px;
+}
+
+.iphone .TRAVEL {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 15px);
+  width: 29px;
+  height: 5px;
+}
+
+.iphone .list-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--semantic-color-background-1);
+  border-radius: 20px;
+}
+
+.iphone .text-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 0px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .text-wrapper-14 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--font-1-subheading-subheading-2-bold-font-family);
+  font-weight: var(--font-1-subheading-subheading-2-bold-font-weight);
+  color: var(--semantic-color-font-neutral-3);
+  font-size: var(--font-1-subheading-subheading-2-bold-font-size);
+  letter-spacing: var(--font-1-subheading-subheading-2-bold-letter-spacing);
+  line-height: var(--font-1-subheading-subheading-2-bold-line-height);
+  font-style: var(--font-1-subheading-subheading-2-bold-font-style);
+}
+
+.iphone .div-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-6-regular-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-6-regular-font-weight);
+  color: var(--components-button-arrow-darkgray);
+  font-size: var(--font-1-paragraph-paragraph-6-regular-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-6-regular-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-6-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-6-regular-font-style);
+}
+
+.iphone .arrow-ico-5 {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.iphone .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+}
+
+.iphone .logo-img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .logo-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--semantic-color-background-2);
+  border-radius: 12px;
+}
+
+.iphone .MO-wrapper {
+  position: relative;
+  width: 70px;
+  height: 26px;
+  margin-top: -39961.00px;
+  margin-left: -2128.00px;
+  background-image: url(./img/rectangle-637.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .MO {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 64px;
+  height: 23px;
+  object-fit: cover;
+}
+
+.iphone .logo-img-2 {
+  position: relative;
+  width: 62px;
+  height: 26px;
+}
+
+.iphone .notice {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: flex-start;
+  padding: 0px 0px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--semantic-color-surface-2);
+}
+
+.iphone .event-bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 64px 24px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .text-wrapper-15 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--pretendard-subheading-subh-1-bold-font-family);
+  font-weight: var(--pretendard-subheading-subh-1-bold-font-weight);
+  color: var(--semantic-color-font-neutral-4);
+  font-size: var(--pretendard-subheading-subh-1-bold-font-size);
+  letter-spacing: var(--pretendard-subheading-subh-1-bold-letter-spacing);
+  line-height: var(--pretendard-subheading-subh-1-bold-line-height);
+  font-style: var(--pretendard-subheading-subh-1-bold-font-style);
+}
+
+.iphone .list-wrapper {
+  flex-direction: column;
+  padding: 0px 24px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .list-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 0px 0px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .element-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .list-4 {
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.iphone .bullet {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  padding: 10px 9px 10px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .ellipse {
+  position: relative;
+  width: 3px;
+  height: 3px;
+  background-color: var(--semantic-color-font-neutral-6);
+  border-radius: 1.5px;
+}
+
+.iphone .p {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--pretendard-paragraph-paragraph-4-regular-font-family);
+  font-weight: var(--pretendard-paragraph-paragraph-4-regular-font-weight);
+  color: var(--semantic-color-font-neutral-6);
+  font-size: var(--pretendard-paragraph-paragraph-4-regular-font-size);
+  letter-spacing: var(--pretendard-paragraph-paragraph-4-regular-letter-spacing);
+  line-height: var(--pretendard-paragraph-paragraph-4-regular-line-height);
+  font-style: var(--pretendard-paragraph-paragraph-4-regular-font-style);
+}
+
+.iphone .element-5 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--pretendard-paragraph-paragraph-4-bold-font-family);
+  font-weight: var(--pretendard-paragraph-paragraph-4-bold-font-weight);
+  color: var(--semantic-color-font-neutral-6);
+  font-size: var(--pretendard-paragraph-paragraph-4-bold-font-size);
+  letter-spacing: var(--pretendard-paragraph-paragraph-4-bold-letter-spacing);
+  line-height: var(--pretendard-paragraph-paragraph-4-bold-line-height);
+  font-style: var(--pretendard-paragraph-paragraph-4-bold-font-style);
+}
+
+.iphone .element-6 {
+  flex-direction: column;
+  width: 342px;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.iphone .element-wrapper {
+  padding: 0px 24px 40px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .element-7 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--pretendard-paragraph-paragraph-4-regular-font-family);
+  font-weight: var(--pretendard-paragraph-paragraph-4-regular-font-weight);
+  color: var(--semantic-color-font-neutral-8);
+  font-size: var(--pretendard-paragraph-paragraph-4-regular-font-size);
+  text-align: right;
+  letter-spacing: var(--pretendard-paragraph-paragraph-4-regular-letter-spacing);
+  line-height: var(--pretendard-paragraph-paragraph-4-regular-line-height);
+  font-style: var(--pretendard-paragraph-paragraph-4-regular-font-style);
+}
+
+.iphone .line-big {
+  position: absolute;
+  top: 977px;
+  left: 0;
+  width: 390px;
+  height: 44px;
+  display: flex;
+  background-color: var(--semantic-color-background-1);
+  overflow: hidden;
+}
+
+.iphone .tab-4 {
+  display: inline-flex;
+  width: 491px;
+  height: 44px;
+  gap: 24px;
+  padding: var(--semantic-spacing-8) var(--semantic-spacing-20) 0px
+    var(--semantic-spacing-20);
+  align-items: flex-start;
+  position: relative;
+}
+
+.iphone .underline {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--semantic-spacing-6);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .text-7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-1-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-1-bold-font-weight);
+  color: var(--components-tab-1depth-selected);
+  font-size: var(--font-1-paragraph-paragraph-1-bold-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-1-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-1-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-1-bold-font-style);
+}
+
+.iphone .underline-2 {
+  background-color: var(--components-tab-1depth-selected);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 2px;
+}
+
+.iphone .text-8 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-1-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-1-bold-font-weight);
+  color: var(--components-tab-1depth-normal);
+  font-size: var(--font-1-paragraph-paragraph-1-bold-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-1-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-1-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-1-bold-font-style);
+}
+
+.iphone .underline-3 {
+  background-color: var(--components-tab-1depth-normal);
+  opacity: 0;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 2px;
+}
+
+.iphone .text-wrapper-16 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-3-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-3-bold-font-weight);
+  color: var(--components-tab-1depth-normal);
+  font-size: var(--font-1-paragraph-paragraph-3-bold-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-3-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-3-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-3-bold-font-style);
+}
+
+.iphone .TOP-image {
+  width: 390px;
+  align-items: flex-start;
+  gap: 90px;
+  position: absolute;
+  top: 220px;
+  left: calc(50.00% - 195px);
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone .TOP-IMAAGE {
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.iphone .top-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .top-image {
+  position: relative;
+  width: 390px;
+  height: 268.62px;
+}
+
+.iphone .view-3 {
+  position: relative;
+  left: 21px;
+  width: 348px;
+  height: 263px;
+  aspect-ratio: 1.33;
+}
+
+.iphone .element-8 {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  width: 102px;
+  height: 80px;
+}
+
+.iphone .vector-14 {
+  position: absolute;
+  top: 40px;
+  left: 42px;
+  width: 270px;
+  height: 212px;
+}
+
+.iphone .vector-15 {
+  position: absolute;
+  width: 22.75%;
+  height: 84.78%;
+  top: 15.22%;
+  left: 77.25%;
+}
+
+.iphone .view-4 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 60px);
+  width: 126px;
+  height: 23px;
+}
+
+.iphone .vector-16 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% + 43px);
+  width: 20px;
+  height: 23px;
+}
+
+.iphone .vector-17 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% + 19px);
+  width: 20px;
+  height: 23px;
+}
+
+.iphone .vector-18 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 9px);
+  width: 25px;
+  height: 22px;
+}
+
+.iphone .vector-19 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 37px);
+  width: 25px;
+  height: 22px;
+}
+
+.iphone .vector-20 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 63px);
+  width: 23px;
+  height: 23px;
+}
+
+.iphone .element-9 {
+  position: absolute;
+  top: 222px;
+  left: 136px;
+  width: 102px;
+  height: 41px;
+}
+
+.iphone .group-3 {
+  position: absolute;
+  top: 119px;
+  left: 310px;
+  width: 29px;
+  height: 46px;
+  transform: rotate(-31.41deg);
+}
+
+.iphone .vector-21 {
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  width: 14px;
+  height: 16px;
+  transform: rotate(31.41deg);
+}
+
+.iphone .vector-22 {
+  position: absolute;
+  top: 11px;
+  left: 2px;
+  width: 23px;
+  height: 15px;
+  transform: rotate(31.41deg);
+}
+
+.iphone .vector-23 {
+  position: absolute;
+  top: 31px;
+  left: 1px;
+  width: 26px;
+  height: 13px;
+  transform: rotate(31.41deg);
+}
+
+.iphone .group-4 {
+  position: absolute;
+  top: 212px;
+  left: 18px;
+  width: 29px;
+  height: 46px;
+  transform: rotate(148.59deg);
+}
+
+.iphone .vector-24 {
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  width: 14px;
+  height: 16px;
+  transform: rotate(-148.59deg);
+}
+
+.iphone .vector-25 {
+  position: absolute;
+  top: 11px;
+  left: 2px;
+  width: 23px;
+  height: 15px;
+  transform: rotate(-148.59deg);
+}
+
+.iphone .vector-26 {
+  position: absolute;
+  top: 31px;
+  left: 1px;
+  width: 26px;
+  height: 13px;
+  transform: rotate(-148.59deg);
+}
+
+.iphone .element-10 {
+  position: absolute;
+  top: 46px;
+  left: 33px;
+  width: 313px;
+  height: 185px;
+  display: flex;
+  gap: 258.3px;
+}
+
+.iphone .vector-27 {
+  width: 28.69px;
+  height: 28.9px;
+}
+
+.iphone .vector-28 {
+  margin-top: 159px;
+  width: 26px;
+  height: 26px;
+}
+
+.iphone .element-11 {
+  position: absolute;
+  top: 126px;
+  left: 213px;
+  width: 42px;
+  height: 44px;
+}
+
+.iphone .date {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--font-1-subheading-subheading-2-bold-font-family);
+  font-weight: var(--font-1-subheading-subheading-2-bold-font-weight);
+  color: var(--semantic-color-font-neutral-white);
+  font-size: var(--font-1-subheading-subheading-2-bold-font-size);
+  letter-spacing: var(--font-1-subheading-subheading-2-bold-letter-spacing);
+  line-height: var(--font-1-subheading-subheading-2-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-subheading-subheading-2-bold-font-style);
+}
+
+.iphone .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.iphone .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-paragraph-paragraph-4-bold-font-family);
+  font-weight: var(--font-1-paragraph-paragraph-4-bold-font-weight);
+  color: var(--semantic-color-font-neutral-white);
+  font-size: var(--font-1-paragraph-paragraph-4-bold-font-size);
+  letter-spacing: var(--font-1-paragraph-paragraph-4-bold-letter-spacing);
+  line-height: var(--font-1-paragraph-paragraph-4-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-paragraph-paragraph-4-bold-font-style);
+}
+
+.iphone .line {
+  position: relative;
+  width: 20px;
+  height: 2.5px;
+  background-color: #ffffff;
+}
+
+.iphone .view-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.iphone .text-wrapper-19 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--font-1-subheading-subheading-2-bold-font-family);
+  font-weight: var(--font-1-subheading-subheading-2-bold-font-weight);
+  color: #ba3a5e;
+  font-size: var(--font-1-subheading-subheading-2-bold-font-size);
+  text-align: center;
+  letter-spacing: var(--font-1-subheading-subheading-2-bold-letter-spacing);
+  line-height: var(--font-1-subheading-subheading-2-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--font-1-subheading-subheading-2-bold-font-style);
+}
+
+.iphone .lopping-motion {
+  position: relative;
+  width: 390px;
+  height: 186px;
+}
+
+.iphone .status-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--sementicbackground-color1-light);
+}
+
+.iphone .time {
+  height: 54px;
+  width: 138px;
+  position: relative;
+}
+
+.iphone .time-2 {
+  position: absolute;
+  width: 26.81%;
+  height: 40.74%;
+  top: 33.96%;
+  left: 36.96%;
+  font-family: "SF Pro-Semibold", Helvetica;
+  font-weight: 400;
+  color: #0e101f;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.iphone .levels {
+  height: 54px;
+  width: 143px;
+}
+
+.iphone .appbar-n-back-title-wrapper {
+  display: flex;
+  width: 390px;
+  align-items: flex-start;
+  position: absolute;
+  top: 54px;
+  left: 0;
+  background-color: var(--sementicbackground-color1-light);
+}
+
+.iphone .appbar-n-back-title {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 8px 12px 8px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .con {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding: 0px 0px 0px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.iphone .ico {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.iphone .ico-back-black {
+  position: absolute;
+  top: calc(50.00% - 12px);
+  left: calc(50.00% - 20px);
+  width: 24px;
+  height: 24px;
+}
+
+.iphone .ico-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -8.00px;
+  margin-bottom: -8.00px;
+}
+
+.iphone .img-3 {
+  position: absolute;
+  top: calc(50.00% - 12px);
+  left: calc(50.00% - 12px);
+  width: 24px;
+  height: 24px;
+}
+
+
+</style>
+</head>
+<body>
+<div id="ohjalsa-event-wrap">
+  
+    <div class="iphone">
+      <div class="rectangle"></div>
+      <img class="group" src="img/group-2116928229.png" />
+      <div class="LIST-ALL">
+        <div class="sub">
+          <div class="title">
+            <div class="view"><img class="vector" src="img/vector-7.svg" /></div>
+            <p class="text-wrapper">봄맞이 쇼핑,<br />비씨로 잘 사는 중</p>
+          </div>
+          <div class="div">
+            <div class="tab">
+              <div class="capsule">
+                <img class="logo" src="img/logo-2.png" />
+                <div class="text-wrapper-2">네이버</div>
+              </div>
+              <div class="capsule">
+                <img class="logo" src="img/logo-13.png" />
+                <div class="text-wrapper-3">G마켓</div>
+              </div>
+              <div class="capsule">
+                <img class="logo" src="img/logo-3.png" />
+                <div class="text-wrapper-3">옥션</div>
+              </div>
+              <div class="capsule">
+                <img class="logo" src="img/image.png" />
+                <div class="text-wrapper-3">SSG닷컴</div>
+              </div>
+              <div class="capsule-2">
+                <img class="img" src="img/logo-4.png" />
+                <div class="text-wrapper-3">쿠팡</div>
+              </div>
+            </div>
+            <div class="contents">
+              <div class="pointer"><img class="vector-2" src="img/vector-1942.svg" /></div>
+              <div class="element">
+                <div class="div-wrapper"><div class="text-wrapper-4">네이버 플러스 스토어</div></div>
+                <div class="ticket-list">
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-9.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">띄어쓰기 포함 14자</div>
+                              <div class="text-wrapper-6">띄어쓰기포함 12자</div>
+                            </div>
+                            <div class="view-2">
+                              <div class="homecard-badge-price"><div class="txt">마이태그</div></div>
+                              <div class="text-wrapper-7">날짜 기입</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-3" src="img/vector-26-4.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-2.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">선물세트</div>
+                              <div class="text-wrapper-6">금액대별 쿠폰할인</div>
+                            </div>
+                            <div class="view-2"><div class="text-wrapper-7">4/1~4/18</div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-4" src="img/vector-26-6.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-gray-ico" src="img/ico-arrow-right-normal-gray1-light-4.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-2">
+          <div class="title-3">
+            <div class="view">
+              <img class="vector-5" src="img/vector-10.svg" /> <img class="FASHION" src="img/FASHION.svg" />
+            </div>
+            <p class="text-wrapper-8">화사한 봄 옷,<br />비씨로 잘 사는 중</p>
+          </div>
+          <div class="select">
+            <div class="tab-2">
+              <div class="capsule">
+                <img class="logo" src="img/logo-16.png" />
+                <div class="text-wrapper-2">무신사</div>
+              </div>
+              <div class="capsule">
+                <img class="logo" src="img/logo-7.png" />
+                <div class="text-wrapper-3">29CM</div>
+              </div>
+              <div class="capsule">
+                <img class="logo" src="img/logo-11.png" />
+                <div class="text-wrapper-9">지그재그<br />에이블리</div>
+              </div>
+              <div class="capsule">
+                <img class="logo" src="img/logo-5.png" />
+                <div class="text-wrapper-3">KREAM</div>
+              </div>
+              <div class="capsule-2">
+                <img class="img" src="img/logo-10.png" />
+                <div class="text-wrapper-10">현대프리미엄<br />아울렛</div>
+              </div>
+            </div>
+            <div class="contents">
+              <div class="pointer"><img class="vector-2" src="img/vector-1943-2.svg" /></div>
+              <div class="element-st">
+                <div class="div-wrapper"><div class="text-wrapper-4">무신사</div></div>
+                <div class="ticket-list">
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-7.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">띄어쓰기 포함 14자</div>
+                              <div class="text-wrapper-6">띄어쓰기포함 12자</div>
+                            </div>
+                            <div class="view-2">
+                              <div class="homecard-badge-price"><div class="txt">마이태그</div></div>
+                              <div class="text-wrapper-7">날짜 기입</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-3" src="img/vector-26-2.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-4.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">선물세트</div>
+                              <div class="text-wrapper-6">금액대별 쿠폰할인</div>
+                            </div>
+                            <div class="view-2"><div class="text-wrapper-7">4/1~4/18</div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-6" src="img/vector-26.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico-2" src="img/ico-arrow-right-normal-gray1-light-3.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-3">
+          <div class="title-4">
+            <div class="view">
+              <img class="subtract-2" src="img/subtract.svg" />
+              <img class="vector-7" src="img/vector-13.svg" />
+              <img class="FOOD" src="img/FOOD.svg" />
+            </div>
+            <p class="text-wrapper-8">봄 제철 식탁,<br />비씨로 잘 먹는 중</p>
+          </div>
+          <div class="select-2">
+            <div class="tab-3">
+              <div class="capsule-3">
+                <div class="gs-logo">
+                  <div class="group-2">
+                    <img class="vector-8" src="img/vector-8.svg" /> <img class="vector-9" src="img/vector-2.svg" />
+                  </div>
+                </div>
+                <div class="text-wrapper-2">이마트</div>
+              </div>
+              <div class="capsule-3">
+                <img class="logo" src="img/logo-8.png" />
+                <div class="text-wrapper-3">세븐일레븐</div>
+              </div>
+              <div class="capsule-3">
+                <img class="logo" src="img/logo-15.png" />
+                <div class="text-wrapper-3">GS25</div>
+              </div>
+              <div class="capsule-3">
+                <img class="logo" src="img/logo-12.png" />
+                <div class="text-wrapper-3">배달의민족</div>
+              </div>
+              <div class="capsule-4">
+                <img class="logo-2" src="img/logo-14.png" />
+                <div class="text-wrapper-11">롯데마트</div>
+              </div>
+              <div class="capsule-5">
+                <img class="logo-3" src="img/logo-6.png" />
+                <div class="text-wrapper-11">롯데슈퍼</div>
+              </div>
+              <div class="capsule-6">
+                <img class="logo-4" src="img/logo.png" />
+                <div class="text-wrapper-10">맥도날드<br />맘스터치</div>
+              </div>
+            </div>
+            <div class="contents">
+              <div class="pointer"><img class="vector-2" src="img/vector-1943-3.svg" /></div>
+              <div class="element-2">
+                <div class="div-wrapper"><div class="text-wrapper-4">이마트</div></div>
+                <div class="ticket-list">
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-11.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">띄어쓰기 포함 14자</div>
+                              <div class="text-wrapper-6">띄어쓰기포함 12자</div>
+                            </div>
+                            <div class="view-2">
+                              <div class="homecard-badge-price"><div class="txt">마이태그</div></div>
+                              <div class="text-wrapper-7">날짜 기입</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-3" src="img/vector-26-7.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-8.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">선물세트</div>
+                              <div class="text-wrapper-6">금액대별 쿠폰할인</div>
+                            </div>
+                            <div class="view-2"><div class="text-wrapper-7">4/1~4/18</div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-10" src="img/vector-26-5.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico-3" src="img/ico-arrow-right-normal-gray1-light.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-4">
+          <div class="title-3">
+            <img class="view" src="img/image-2.png" />
+            <p class="text-wrapper-8">천원의 행복,<br />비씨로 잘 사는 중</p>
+          </div>
+          <div class="select-2">
+            <div class="tab-3">
+              <div class="capsule-3">
+                <img class="logo" src="img/logo-9.png" />
+                <div class="text-wrapper-2">다이소</div>
+              </div>
+            </div>
+            <div class="contents">
+              <div class="pointer"><img class="vector-2" src="img/vector-1943.svg" /></div>
+              <div class="element-3">
+                <div class="div-wrapper"><div class="text-wrapper-4">다이소</div></div>
+                <div class="ticket-list">
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-3.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">띄어쓰기 포함 14자</div>
+                              <div class="text-wrapper-6">띄어쓰기포함 12자</div>
+                            </div>
+                            <div class="view-2">
+                              <div class="homecard-badge-price"><div class="txt">마이태그</div></div>
+                              <div class="text-wrapper-7">날짜 기입</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-3" src="img/vector-26-3.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ticket">
+                    <div class="ticket-2">
+                      <img class="subtract" src="img/subtract-6.svg" />
+                      <div class="box">
+                        <div class="text">
+                          <div class="title-2">
+                            <div class="text-2">
+                              <div class="text-wrapper-5">선물세트</div>
+                              <div class="text-wrapper-6">금액대별 쿠폰할인</div>
+                            </div>
+                            <div class="view-2"><div class="text-wrapper-7">4/1~4/18</div></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-2">
+                      <div class="ticket-line"><img class="vector-11" src="img/vector-26-8.svg" /></div>
+                      <div class="frame">
+                        <div class="arrow-ico-wrapper">
+                          <img class="arrow-ico-4" src="img/ico-arrow-right-normal-gray1-light-2.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-5">
+          <div class="title-3">
+            <div class="view">
+              <img class="subtract-3" src="img/subtract-10.svg" />
+              <img class="vector-12" src="img/vector-4.svg" />
+              <img class="BILLS" src="img/BILLS.svg" />
+            </div>
+            <p class="text-wrapper-8">알뜰살뜰 생활요금<br />비씨로 잘 내는 중</p>
+          </div>
+          <div class="list-all-wrapper">
+            <div class="div">
+              <div class="list">
+                <img class="img-2" src="img/img-3d-apartment.svg" />
+                <div class="text-3">
+                  <div class="text-4">
+                    <div class="text-wrapper-12">생활요금 자동납부</div>
+                    <div class="text-wrapper-13">최대 35,000원 할인</div>
+                  </div>
+                  <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                </div>
+              </div>
+              <div class="list">
+                <img class="img-2" src="img/img-3d-ecocar.svg" />
+                <div class="text-5">
+                  <div class="text-4">
+                    <div class="text-wrapper-12">롯데렌터카 마이카(장기렌트)</div>
+                    <div class="text-wrapper-13">3.5% 적립</div>
+                  </div>
+                  <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                </div>
+              </div>
+              <div class="list">
+                <img class="img-2" src="img/img-3d-baseball1.svg" />
+                <div class="text-5">
+                  <div class="text-4">
+                    <div class="text-wrapper-12">키즈카페 이용권</div>
+                    <div class="text-wrapper-13">35% 할인</div>
+                  </div>
+                  <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-6">
+          <div class="title-3">
+            <div class="view">
+              <img class="subtract-4" src="img/subtract-5.svg" />
+              <img class="vector-13" src="img/vector-21.svg" />
+              <img class="TRAVEL" src="img/TRAVEL.svg" />
+            </div>
+            <div class="text-wrapper-8">여행의 설렘으로<br />잘 사는 중</div>
+          </div>
+          <div class="list-all-wrapper">
+            <div class="div">
+              <div class="list-2">
+                <div class="text-6">
+                  <div class="text-2">
+                    <div class="text-wrapper-12">호텔, 항공권 등</div>
+                    <div class="text-wrapper-14">최대 15% 할인</div>
+                  </div>
+                  <div class="div-3" data-components-mode="light-mode">
+                    <div class="label">여행 혜택 모아보기</div>
+                    <img class="arrow-ico-5" src="img/ico-arrow-right-normal-gray3-light.svg" />
+                  </div>
+                </div>
+                <div class="frame-2">
+                  <img class="logo-img" src="img/logo-img-2.png" />
+                  <div class="logo-img-wrapper">
+                    <div class="MO-wrapper"><img class="MO" src="img/MO-0-7-1.png" /></div>
+                  </div>
+                  <div class="logo-img-wrapper"><img class="logo-img-2" src="img/logo-img.png" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="notice">
+          <div class="event-bottom"><div class="text-wrapper-15">유의사항</div></div>
+          <div class="list-wrapper">
+            <div class="list-3">
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">
+                    할인 행사 상품 리스트 및 세부사항은 제휴사별 이벤트 페이지 혹은 매장에서 확인 가능합니다.
+                  </p>
+                </div>
+              </div>
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">카드사 및 제휴사의 사정으로 행사 변경 및 중단될 수 있습니다.</p>
+                </div>
+              </div>
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">카드사 및 제휴사에서 주관하는 이벤트 행사이며 애플이나 구글과는 관련이 없습니다.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="event-bottom"><div class="text-wrapper-15">꼭 확인하세요</div></div>
+          <div class="list-wrapper">
+            <div class="list-3">
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">계약을 체결하기 전에 금융상품설명서와 약관을 확인하시기 바랍니다.</p>
+                </div>
+              </div>
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">
+                    신용카드 발급이 부적정한 경우(개인신용평점 낮음, 연체사유발생등) 카드발급이 제한될 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">카드이용대금과 이에 수반되는 모든 수수료를 지정된 대금 결제일에 상환합니다.</p>
+                </div>
+              </div>
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="element-5">
+                    상환능력에 비해 신용카드 사용액이 과도할 경우, 귀하의 개인신용평점이 하락할 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div class="element-4">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="element-5">개인신용평점 하락 시 금융거래와 관련된 불이익이 발생할 수 있습니다.</p>
+                </div>
+              </div>
+              <div class="element-6">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="element-5">
+                    일정기간 원리금을 연체할 경우, 모든 원리금을 변제할 의무가 발생할 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <div class="element-6">
+                <div class="list-4">
+                  <div class="bullet"><div class="ellipse"></div></div>
+                  <p class="p">
+                    금융소비자는 금융소비자보호법 제19조제1항에 따라 해당 상품 또는 서비스에 대하여 설명을 받을 권리가
+                    있습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="element-wrapper">
+            <div class="element-7">준법감시인 2026-0372호<br />(2026.02.23~2027.02.22)</div>
+          </div>
+        </div>
+      </div>
+      <div class="line-big">
+        <div class="tab-4">
+          <div class="underline">
+            <div class="div-3"><div class="text-7">온라인</div></div>
+            <div class="underline-2"></div>
+          </div>
+          <div class="underline" data-components-mode="light-mode">
+            <div class="div-3"><div class="text-8">의류</div></div>
+            <div class="underline-3"></div>
+          </div>
+          <div class="underline" data-components-mode="light-mode">
+            <div class="div-3"><div class="text-8">마트/편의점</div></div>
+            <div class="underline-3"></div>
+          </div>
+          <div class="underline" data-components-mode="light-mode">
+            <div class="div-3"><div class="text-8">카페</div></div>
+            <div class="underline-3"></div>
+          </div>
+          <div class="underline" data-components-mode="light-mode">
+            <div class="div-3"><div class="text-8">생활</div></div>
+            <div class="underline-3"></div>
+          </div>
+          <div class="underline" data-components-mode="light-mode">
+            <div class="div-3"><div class="text-8">여행</div></div>
+            <div class="underline-3"></div>
+          </div>
+          <div class="underline" data-components-mode="light-mode">
+            <div class="div-3"><div class="text-wrapper-16">Text</div></div>
+            <div class="underline-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="TOP-image">
+        <div class="TOP-IMAAGE">
+          <div class="top-wrapper">
+            <div class="top">
+              <div class="top-image">
+                <div class="view-3">
+                  <img class="element-8" src="img/004.png" />
+                  <img class="vector-14" src="img/vector-17.svg" />
+                  <img class="vector-15" src="img/vector-11.svg" />
+                  <div class="view-4">
+                    <img class="vector-16" src="img/vector-19.svg" />
+                    <img class="vector-17" src="img/vector-12.svg" />
+                    <img class="vector-18" src="img/vector-14.svg" />
+                    <img class="vector-19" src="img/vector-15.svg" />
+                    <img class="vector-20" src="img/vector-16.svg" />
+                  </div>
+                  <img class="element-9" src="img/5.png" />
+                  <div class="group-3">
+                    <img class="vector-21" src="img/image.svg" />
+                    <img class="vector-22" src="img/vector.svg" />
+                    <img class="vector-23" src="img/vector-6.svg" />
+                  </div>
+                  <div class="group-4">
+                    <img class="vector-24" src="img/vector-18.svg" />
+                    <img class="vector-25" src="img/vector-9.svg" />
+                    <img class="vector-26" src="img/vector-3.svg" />
+                  </div>
+                  <div class="element-10">
+                    <img class="vector-27" src="img/vector-5.svg" /> <img class="vector-28" src="img/vector-20.svg" />
+                  </div>
+                  <img class="element-11" src="img/001.png" />
+                </div>
+              </div>
+              <div class="date">
+                <div class="div-2">
+                  <div class="text-wrapper-17">4.01.</div>
+                  <div class="frame-3"><div class="text-wrapper-18">WED</div></div>
+                </div>
+                <div class="line"></div>
+                <div class="div-2">
+                  <div class="text-wrapper-17">4.30.</div>
+                  <div class="frame-3"><div class="text-wrapper-18">THU</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-5">
+          <div class="text-wrapper-19">4월 주요혜택 라인업</div>
+          <img class="lopping-motion" src="img/lopping-motion.png" />
+        </div>
+      </div>
+      <div class="status-bar">
+        <div class="time"><div class="time-2">9:41</div></div>
+        <img class="levels" src="img/levels.svg" />
+      </div>
+      <div class="appbar-n-back-title-wrapper">
+        <div class="appbar-n-back-title">
+          <div class="con">
+            <div class="ico"><img class="ico-back-black" src="img/ico-back-black-24.svg" /></div>
+          </div>
+          <div class="ico-2">
+            <div class="ico"><img class="img-3" src="img/ico-share-aos-black-24.svg" /></div>
+            <div class="ico"><img class="img-3" src="img/ico-like-black-24.svg" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</div>
+<script>
+const benefitData = [
+  {
+    id: "evt-naver",
+    yearMonth: "2026-04",
+    category: "온라인",
+    merchant: "네이버 페이",
+    title1: "8만원 이상 결제 시",
+    title2: "4,000원 할인",
+    period: "4/1~4/18",
+    isMyTag: "N",
+    landingUrl: "",
+    isMainBenefit: "Y",
+    details: "네이버페이 BC카드로 8만원 이상 결제 시 할인 적용\n- 1일 1회 적용\n- 법인/기프트카드 제외",
+    popupCtaUrl: "https://naver.com"
+  },
+    {
+    id: "evt-naver-02",
+    yearMonth: "2026-04",
+    category: "온라인",
+    merchant: "네이버 페이",
+    title1: "8만원 이상 결제 시",
+    title2: "4,000원 할인",
+    period: "4/1~4/18",
+    isMyTag: "N",
+    landingUrl: "",
+    isMainBenefit: "Y",
+    details: "네이버페이 BC카드로 8만원 이상 결제 시 할인 적용\n- 1일 1회 적용\n- 법인/기프트카드 제외",
+    popupCtaUrl: "https://naver.com"
+  },
+    {
+    id: "evt-naver-03",
+    yearMonth: "2026-04",
+    category: "온라인",
+    merchant: "네이버 페이",
+    title1: "8만원 이상 결제 시",
+    title2: "4,000원 할인",
+    period: "4/1~4/18",
+    isMyTag: "N",
+    landingUrl: "",
+    isMainBenefit: "Y",
+    details: "네이버페이 BC카드로 8만원 이상 결제 시 할인 적용\n- 1일 1회 적용\n- 법인/기프트카드 제외",
+    popupCtaUrl: "https://naver.com"
+  },
+  {
+    id: "evt-ssg",
+    yearMonth: "2026-04",
+    category: "온라인",
+    merchant: "SSG닷컴",
+    title1: "5만원 이상 결제 시",
+    title2: "3,000원 할인",
+    period: "4/1~4/30",
+    isMyTag: "N",
+    landingUrl: "",
+    isMainBenefit: "Y",
+    details: "SSG닷컴에서 5만원 이상 결제 시 3,000원 할인 적용\n- 1일 1회 적용",
+    popupCtaUrl: "https://ssg.com"
+  },
+  {
+    id: "evt-lotte",
+    yearMonth: "2026-04",
+    category: "마트/편의점",
+    merchant: "롯데마트",
+    title1: "8만원 이상 결제 시",
+    title2: "4,000원 할인",
+    period: "4/1~4/18",
+    isMyTag: "N",
+    landingUrl: "",
+    isMainBenefit: "Y",
+    details: "롯데마트에서 8만원 이상 결제 시 할인 적용",
+    popupCtaUrl: ""
+  },
+  {
+    id: "evt-coffee",
+    yearMonth: "2026-04",
+    category: "카페",
+    merchant: "더벤티/매머드/메가/컴포즈",
+    title1: "주말 최대",
+    title2: "1,000원 할인",
+    period: "4/1~4/18",
+    isMyTag: "Y",
+    landingUrl: "https://example.com/mytag",
+    isMainBenefit: "N",
+    details: "대상 가맹점에서 BC카드로 결제 시 할인",
+    popupCtaUrl: ""
+  },
+  {
+    id: "evt-life",
+    yearMonth: "2026-04",
+    category: "생활",
+    merchant: "자동납부",
+    title1: "생활요금 자동납부",
+    title2: "최대 35,000원 할인",
+    period: "상시",
+    isMyTag: "Y",
+    landingUrl: "https://example.com/life",
+    isMainBenefit: "N",
+    details: "생활요금 신규 자동납부 시 혜택 제공",
+    popupCtaUrl: ""
+  }
+];
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const wrap = document.getElementById("ohjalsa-event-wrap");
+  if (!wrap || typeof benefitData === "undefined") return;
+
+  // 1. TOP TABS LOGIC
+  const topTabs = wrap.querySelectorAll(".line-big .tab-4 .underline");
+  const catSections = document.querySelectorAll(".LIST-ALL > div"); // sub, sub-2...
+
+  // Initially hide all except first
+  catSections.forEach((sec, idx) => {
+    if (idx !== 0 && !sec.classList.contains("notice")) sec.style.display = "none";
+  });
+
+  // Handle top tab clicks
+  topTabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      topTabs.forEach((t) => {
+        const txt = t.querySelector("div[class^='text-']");
+        if (txt) txt.style.color = "var(--semantic-color-font-neutral-7)";
+      });
+      const t = tab.querySelector("div[class^='text-']");
+      if (t) t.style.color = "var(--semantic-color-font-neutral-2)";
+
+      // Hide all category sections except notice
+      catSections.forEach((sec) => {
+        if (!sec.classList.contains("notice")) sec.style.display = "none";
+      });
+
+      // Show target category based on index
+      if (catSections[index]) {
+        catSections[index].style.display = "flex";
+        // smooth scroll
+        const tabBottom = document.querySelector(".line-big").getBoundingClientRect().bottom;
+        const targetTop = catSections[index].getBoundingClientRect().top;
+        window.scrollTo({
+          top: window.scrollY + targetTop - tabBottom - 12,
+          behavior: "smooth"
+        });
+      }
+    });
+  });
+
+  // 2. CAPSULE & CARD RENDERING LOGIC
+  // We need to render cards mapping to benefitData.
+  
+  function renderTicketsForMerchant(merchantName, ticketListWrapper) {
+    if (!ticketListWrapper) return;
+    
+    // get items matching this merchant
+    const items = benefitData.filter((b) => b.merchant.includes(merchantName));
+    
+    if (items.length === 0) return; // leave as design if no data yet (or clear)
+
+    ticketListWrapper.innerHTML = ""; // Clear static tickets
+
+    items.forEach((item) => {
+      // Find what kind of arrow image to use based on structure, or just use a generic one
+      const isMyTagBg = item.isMyTag === "Y" ? 
+        `<div class="homecard-badge-price" style="background-color:rgba(93, 103, 207, 0.1);"><div class="txt" style="color:var(--basicsubindigo-400); font-size:11px; font-weight:700;">마이태그</div></div>` : "";
+
+      const html = `
+      <div class="ticket" style="cursor:pointer;" onclick="alert('팝업 처리 구간: ${item.id}')">
+        <div class="ticket-2">
+          <!-- background placeholder for subtract.svg -->
+          <div style="width:10px; height:118px; border-right: 1px dashed #ccc; background:#fff; border-radius:10px 0 0 10px;"></div>
+          <div class="box" style="border-radius: 0 10px 10px 0;">
+            <div class="text">
+              <div class="title-2">
+                <div class="text-2">
+                  <div class="text-wrapper-5" style="white-space:normal; height:auto;">${item.title1}</div>
+                  <div class="text-wrapper-6" style="white-space:normal; height:auto; margin-top:2px;">${item.title2}</div>
+                </div>
+                <div class="view-2">
+                  ${isMyTagBg}
+                  <div class="text-wrapper-7">${item.period}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-2" style="background:#fff; border-radius: 0 10px 10px 0;">
+          <div class="frame">
+            <div class="arrow-ico-wrapper">
+              <img class="arrow-ico" src="img/ico-arrow-right-normal-gray1-light.svg" onerror="this.src=''" alt=">" />
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
+      ticketListWrapper.insertAdjacentHTML("beforeend", html);
+    });
+  }
+
+  // Bind capsule clicks
+  const sections = document.querySelectorAll(".LIST-ALL > div");
+  sections.forEach((sec) => {
+    // Find all capsules in this section
+    const capsules = sec.querySelectorAll("div[class^='capsule']");
+    if (capsules.length === 0) return;
+
+    // The content block (where the ticket list is)
+    // usually follows the pointer
+    const contentBlock = sec.querySelector(".pointer").nextElementSibling;
+    if (!contentBlock) return;
+
+    const titleEl = contentBlock.querySelector(".div-wrapper div[class^='text-']");
+    const ticketListEl = contentBlock.querySelector(".ticket-list");
+
+    capsules.forEach((cap) => {
+      cap.addEventListener("click", () => {
+        // Reset capsule styles visually
+        capsules.forEach(c => {
+           c.style.borderColor = "var(--semantic-color-banner-3-20)";
+        });
+        cap.style.borderColor = "var(--semantic-color-font-neutral-2)"; // simulate active
+
+        const merchantNameRaw = cap.innerText.trim();
+        const shortMatch = merchantNameRaw.split("\\n")[0].split(" ")[0]; // e.g. "현대프리미엄 아울렛" -> "현대프리미엄"
+
+        if (titleEl) titleEl.innerText = merchantNameRaw.replace(/\\n/g, " ");
+
+        renderTicketsForMerchant(shortMatch, ticketListEl);
+      });
+    });
+
+    // trigger click on first capsule by default to load first set of data
+    if(capsules.length > 0) {
+      capsules[0].click();
+    }
+  });
+
+});
+
+
+
+</script>
+</body>
+</html>
